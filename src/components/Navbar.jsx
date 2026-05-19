@@ -48,16 +48,17 @@ export default function Navbar() {
       </div>
 
       {/* Mobile Hamburger */}
-      <button className="md:hidden text-white" onClick={() => setOpen(!open)}>
+      <button className="md:hidden text-white z-50 relative" onClick={() => setOpen(!open)}>
         {open ? <X size={24} /> : <Menu size={24} />}
       </button>
 
-      {/* Mobile Menu */}
+      {/* Mobile Sidebar */}
       {open && (
         <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="absolute top-full left-0 w-full glass py-4 flex flex-col items-center gap-4 md:hidden"
+          initial={{ x: '100%' }}
+          animate={{ x: 0 }}
+          transition={{ type: 'spring', damping: 20, stiffness: 100 }}
+          className="fixed top-0 right-0 w-64 h-screen bg-slate-900/95 backdrop-blur-xl border-l border-slate-700/50 pt-24 pb-8 flex flex-col items-center gap-8 md:hidden z-40 shadow-2xl"
         >
           {navLinks.map(({ to, label }) => (
             <NavLink
@@ -65,7 +66,7 @@ export default function Navbar() {
               to={to}
               onClick={() => setOpen(false)}
               className={({ isActive }) =>
-                `text-lg font-medium transition-colors ${isActive ? 'text-white' : 'text-gray-400'}`
+                `text-xl font-medium transition-colors ${isActive ? 'text-blue-400' : 'text-gray-300 hover:text-white'}`
               }
             >
               {label}
