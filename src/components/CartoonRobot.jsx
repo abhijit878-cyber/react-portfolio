@@ -20,7 +20,7 @@ export default function CartoonRobot() {
 
   return (
     <motion.div
-      className="fixed z-30 pointer-events-none select-none hidden md:block"
+      className="fixed z-30 pointer-events-none select-none"
       style={{ left: mouseX, top: mouseY, translateX: '-50%', translateY: '-50%' }}
     >
       <motion.div
