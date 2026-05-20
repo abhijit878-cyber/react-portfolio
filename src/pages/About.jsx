@@ -132,7 +132,7 @@ export default function About() {
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-2">
                 <h3 className="text-lg font-bold">B.Tech in Computer Science & Engineering</h3>
                 <span className="text-sm font-mono text-purple-400 bg-purple-500/10 px-3 py-1 rounded-full shrink-0">
-                  2024 – Present
+                  2023 – 2027
                 </span>
               </div>
               <p className="text-blue-400 font-semibold mb-2">Centurion University of School and Management</p>
