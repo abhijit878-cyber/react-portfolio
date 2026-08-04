@@ -30,24 +30,7 @@ const projects = [
     github: 'https://github.com/abhijit878-cyber',
     live: '#',
   },
-  {
-    title: 'Courseware — LMS',
-    desc: 'An interactive Learning Management System for students to access course materials, submit assignments, and track academic progress online.',
-    tech: ['Java', 'Spring Boot', 'MySQL', 'Angular'],
-    emoji: '📚',
-    img: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&q=80',
-    github: 'https://github.com/abhijit878-cyber',
-    live: '#',
-  },
-  {
-    title: 'Android Weather App',
-    desc: 'A native Android application providing real-time weather updates, location-based forecasts, and weather alerts using a live REST API.',
-    tech: ['Kotlin', 'Android Studio', 'REST API', 'Firebase'],
-    emoji: '⛅',
-    img: 'https://images.unsplash.com/photo-1504608524841-42584120d693?w=600&q=80',
-    github: 'https://github.com/abhijit878-cyber',
-    live: '#',
-  },
+
 ];
 
 const pageVariants = {
