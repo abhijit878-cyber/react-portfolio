@@ -48,15 +48,6 @@ const projects = [
     github: 'https://github.com/abhijit878-cyber',
     live: '#',
   },
-  {
-    title: 'Student Progress Tracker',
-    desc: 'A comprehensive tool for educators to monitor student performance, track attendance and grades, and generate detailed progress reports.',
-    tech: ['Android Development', 'Java', 'Firebase'],
-    emoji: '📊',
-    img: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&q=80',
-    github: 'https://github.com/abhijit878-cyber',
-    live: '#',
-  },
 ];
 
 const pageVariants = {
