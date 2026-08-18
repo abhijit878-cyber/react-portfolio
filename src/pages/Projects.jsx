@@ -30,6 +30,15 @@ const projects = [
     github: 'https://github.com/abhijit878-cyber',
     live: '#',
   },
+  {
+    title: 'Lagangule',
+    desc: 'A full-stack web application built with a modern MERN-style architecture using Node.js, Express.js, and React with MySQL database and REST API integration.',
+    tech: ['Node.js', 'Express.js', 'MySQL', 'React', 'REST API'],
+    emoji: '🌐',
+    img: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&q=80',
+    github: 'https://github.com/abhijit878-cyber',
+    live: '#',
+  },
 
 ];
 
