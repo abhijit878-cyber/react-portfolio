@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const projects = [
   {
-    title: 'Lagangule',
+    title: 'Hospital Management System',
     desc: 'A full-stack hospital management system with patient registration, doctor management, appointment scheduling, billing, and medical records — built as a real-world B.Tech project.',
     tech: ['Node.js', 'Express.js', 'MySQL', 'React', 'REST API'],
     emoji: '🏥',
